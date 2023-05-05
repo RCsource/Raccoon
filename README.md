@@ -12,7 +12,7 @@ Raccoon is a translatable object-oriented programming language designed as a pro
   
  ## How to install Raccoon?
   
-To download Raccoon you have two ways to do it, the first is to download it from the official [RubyCats channel] (https://t.me/RubyCoding), or else we can use git
+To download Raccoon you have two ways to do it, the first is to download it from the official [RubyCats channel](https://t.me/RubyCoding), or else we can use git
   
  ### Download with Git 
   
@@ -26,7 +26,7 @@ To download Raccoon you have two ways to do it, the first is to download it from
   
  ## Our Telegram channels!
   
- [RaccoonFoundation](https://t.me/RaccoonFoundation)
+ [RaccoonFoundation](https://t.me/RaccoonFoundation) <br>
 [RubyCats](https://t.me/rubycoding)
  ## Copying 
   
