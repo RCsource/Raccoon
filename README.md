@@ -27,9 +27,7 @@ To download Raccoon you have two ways to do it, the first is to download it from
  ## Our Telegram channels!
   
  [RaccoonFoundation](https://t.me/RaccoonFoundation) <br>
-[RubyCats](https://t.me/rubycoding)
- ## Copying 
-  
+[RubyCats](https://t.me/rubycoding) 
  ## Feedback 
   
  You can ask questions about Raccoon in the RaccoonFoundation chat!
