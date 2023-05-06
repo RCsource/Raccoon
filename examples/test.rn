@@ -1,7 +1,7 @@
 use.ruby 'ruby2d'
 
-set title: "Спарки хуесосы"
-Text.new('Спарки хуесосы')
+set title: "Hello, World!"
+Text.new('Hello, World! ')
 
 
 
