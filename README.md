@@ -1,4 +1,6 @@
-# What is Raccoon?
+<img src="img/raccoonbanner.png" height = "250">
+
+## What is Raccoon?
 
 Raccoon is a translatable object-oriented programming language designed as a programmer's best friend!
   
