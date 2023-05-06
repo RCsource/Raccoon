@@ -12,12 +12,11 @@ begin
       eval(@tcode)
     end
     def input=(data)
-      eval('#{data} = gets.chomp')
+      eval('#{data} = gets')
     end
   end
-      def let(data)
-      endc
-  end
+    def let(data)
+    end
 
 rescue Exception => e
   puts "    -error in the std library.\n       #{e.message}".red
