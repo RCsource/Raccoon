@@ -3,70 +3,63 @@ require_relative 'core/standart.rb'
 
 std = STANDART.new
 @tcode = ""
-
-puts "RACCOON 1.8!\n\n"
- 
-
-
-loop do
-    print "path:"
-    path = gets.chomp
+path = ARGV[0]
   
-    begin
-      ntcode = File.read(path)
-      eval(ntcode)
-      erorrcode = 0
-    rescue Errno::EINVAL
-      erorrcode = 1
+begin
+    ntcode = File.read(path)
+    eval(ntcode)
+    erorrcode = 0
+rescue Errno::EINVAL
+    erorrcode = 1
     rescue Errno::ENOENT
-      erorrcode = 2
-    rescue TypeError
-      erorrcode = 4
-    rescue ZeroDivisionError
-      erorrcode = 5
-    rescue NameError
-      erorrcode = 6
-    rescue NoMethodError
-      erorrcode = 7
-    rescue LoadError
-      erorrcode = 8
-    rescue SyntaxError
-      erorrcode = 9
-    rescue ArgumentError
-      erorrcode = 10
-    rescue IOError
-      erorrcode = 11
-    rescue SystemExit
-      erorrcode = 12
-    rescue StandardError
-      erorrcode = 13
-    rescue IndexError
-      erorrcode = 14
-    rescue KeyError
-      erorrcode = 15
-    rescue NotImplementedError
-      erorrcode = 16
-    rescue FloatDomainError
-      erorrcode = 17
-    rescue SystemCallError
-      erorrcode = 18
-    rescue EncodingError
-      erorrcode = 19
-    rescue ThreadError
-      erorrcode = 20
-    rescue FrozenError
-      erorrcode = 21
-    rescue EOFError
-      erorrcode = 22
-    rescue ValueError
-      erorrcode = 23
-    rescue AssertionError
-      erorrcode = 24
-    rescue ImportError
-      erorrcode = 25 
-    rescue MemoryErorr
-      erorrcode = 26
-    ensure
+    erorrcode = 2
+rescue TypeError
+    erorrcode = 4
+rescue ZeroDivisionError
+    erorrcode = 5
+rescue NameError
+    erorrcode = 6
+rescue NoMethodError
+    erorrcode = 7
+rescue LoadError
+    erorrcode = 8
+rescue SyntaxError
+    erorrcode = 9
+rescue ArgumentError
+    erorrcode = 10
+rescue IOError
+    erorrcode = 11
+rescue SystemExit
+    erorrcode = 12
+rescue StandardError
+    erorrcode = 13
+rescue IndexError
+    erorrcode = 14
+rescue KeyError
+    erorrcode = 15
+rescue NotImplementedError
+    erorrcode = 16
+rescue FloatDomainError
+    erorrcode = 17
+rescue SystemCallError
+    erorrcode = 18
+rescue EncodingError
+    erorrcode = 19
+rescue ThreadError
+    erorrcode = 20
+rescue FrozenError
+    erorrcode = 21
+rescue EOFError
+    erorrcode = 22
+rescue ValueError
+    erorrcode = 23
+rescue AssertionError
+    erorrcode = 24
+rescue ImportError
+    erorrcode = 25 
+rescue MemoryErorr
+    erorrcode = 26
+ensure
       if erorrcode == 0
         puts "   -code complate!. Code of completed: #{erorrcode}".green
       elsif erorrcode == 1 || erorrcode == 2
@@ -89,7 +82,7 @@ loop do
         puts "   -System exit. Code of completed: #{erorrcode}".red
       elsif erorrcode == 13
         puts "   -Standard Error. Code of completed: #{erorrcode}".red
-      elsif errorrcode == 14
+      elsif erorrcode == 14
         puts "   -Index Error. Code of completed: #{erorrcode}".red
       elsif erorrcode == 15 
         puts "   -Key Erorr. Code of completed: #{erorrcode}".red
@@ -115,7 +108,5 @@ loop do
         puts "   -Import Error. Code of completed: #{erorrcode}".red
       elsif erorrcode == 26
         puts "   -Memory Erorr. Code of completed: #{erorrcode}".red
-      end
     end
-  end
-  
+end  
