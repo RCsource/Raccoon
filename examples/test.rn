@@ -1,3 +1,1 @@
-std.bring "Hey!"
-beb = std.input
-std.bring(beb)
+std.bring ("Hello, world!")

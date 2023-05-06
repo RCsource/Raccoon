@@ -11,13 +11,14 @@ begin
       @tcode =+ "\nsleep 0.#{data}"
       eval(@tcode)
     end
-    def input=(data)
-      eval('#{data} = gets')
-    end
   end
     def let(data)
     end
 
+    def use(data)
+      @tcode =+ "require_relative('#{data}')"
+      eval(@tcode)
+    end
 rescue Exception => e
   puts "    -error in the std library.\n       #{e.message}".red
 end
