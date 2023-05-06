@@ -2,9 +2,12 @@ require 'colorize'
 require_relative 'core/standart.rb'
 
 std = STANDART.new
+use = USING.new
+
 @tcode = ""
 path = ARGV[0]
-  
+
+
 begin
     ntcode = File.read(path)
     eval(ntcode)
@@ -75,7 +78,7 @@ ensure
       elsif erorrcode == 9
         puts "   -Syntax erorr. Code of completed: #{erorrcode}".red
       elsif erorrcode == 10
-        puts "   -Argumen tErorr. Code of completed: #{erorrcode}".red
+        puts "   -ArgumentErorr. Code of completed: #{erorrcode}".red
       elsif erorrcode == 11
         puts "   -IO Error. Code of completed: #{erorrcode}".red
       elsif erorrcode == 12

@@ -1,1 +1,8 @@
-std.bring ("Hello, world!")
+use.ruby 'ruby2d'
+
+set title: "Спарки хуесосы"
+Text.new('Спарки хуесосы')
+
+
+
+show
