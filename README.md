@@ -1,4 +1,4 @@
-<img src="img/raccoonbanner.png" height = "250">
+<img src="img/raccoonbanner.png" height = "400">
 
 ## What is Raccoon?
 
