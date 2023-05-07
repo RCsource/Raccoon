@@ -18,10 +18,15 @@ To download Raccoon you have two ways to do it, the first is to download it from
   
  ### Download with Git 
   
- We can install Raccoon by installing the source code, for this we need to download git and write this command at the terminal : 
+ We can install Raccoon by installing the source code, for this we need to download git and write this commands at the terminal : 
  ``` 
      $ git clone https://github.com/RCsource/Raccoon
-  ```    
+  ```
+and
+``` 
+     $ bundle install
+  ```
+If you use the option with git You have to install the ruby interpreter, otherwise you won't succeed.
  ## Documentation 
   
  - [Russian](http://rubycats.gitbook.io/dock-of-raccoon) 
