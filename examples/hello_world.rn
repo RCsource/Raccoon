@@ -1,0 +1,3 @@
+std.bring ("Hello, world!") # => true
+
+#std.bring ("I'm") => false
