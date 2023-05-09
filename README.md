@@ -1,40 +1,40 @@
-<img src="img/raccoonbanner.png" height = "150">
 
 ## What is Raccoon?
 
-Raccoon is a translatable object-oriented programming language designed as a programmer's best friend!
-  
- ## Features of Raccoon
-  
- * Simple Syntax 
- * **Normal** Object-oriented Features (e.g. class, method)  
- * A small but cool community 
- * Without declaring a data type, only "let"
- * The code is executed using a translation
-  
- ## How to install Raccoon?
-  
-To download Raccoon you have two ways to do it, the first is to download it from the official [RubyCats channel](https://t.me/RubyCoding), or else we can use git
-  
- ### Download with Git 
-  
- We can install Raccoon by installing the source code, for this we need to download git and write this commands at the terminal : 
- ``` 
-     $ git clone https://github.com/RCsource/Raccoon
-  ```
-and
-``` 
-     $ bundle install
-  ```
-If you use the option with git You have to install the ruby interpreter, otherwise you won't succeed.
- ## Documentation 
-  
- - [Russian](http://rubycats.gitbook.io/dock-of-raccoon) 
-  
- ## Our Telegram channels!
-  
- [RaccoonFoundation](https://t.me/RaccoonFoundation) <br>
-[RubyCats](https://t.me/rubycoding) 
- ## Feedback 
-  
- You can ask questions about Raccoon in the RaccoonFoundation chat!
+> Raccoon is an object-oriented programming language designed to be a programmer's best friend! It is also translatable, making it accessible to a wider audience.
+
+## Features of Raccoon
+
+Raccoon boasts the following features:
+
+- Simple syntax
+- Object-oriented features, such as classes and methods
+- A small but active community
+- No need to declare data types, just use "let"
+- Code is executed using translation
+
+## Installation
+
+There are two ways to download Raccoon. First, you can download it from the [official RubyCats channel](https://t.me/RubyCoding). Alternatively, you can use Git to install Raccoon from the source code. If you choose the [Git](https://git-scm.com/downloads) option, you will need to [install](https://www.ruby-lang.org/en/downloads/) the Ruby interpreter.
+
+To install Raccoon using Git, follow these steps:
+
+```shell
+git clone https://github.com/RCsource/Raccoon
+bundle install
+```
+
+## Documentation
+
+Raccoon's documentation is [available](http://rubycats.gitbook.io/dock-of-raccoon) in Russian.
+
+## Our Telegram Channels
+
+Stay up-to-date with Raccoon by joining our Telegram channels:
+
+- [RaccoonFoundation](https://t.me/RaccoonFoundation)
+- [RubyCats](https://t.me/rubycoding)
+
+# Feedback
+
+If you have any questions about Raccoon, feel free to ask in the RaccoonFoundation chat!
