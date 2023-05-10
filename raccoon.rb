@@ -1,5 +1,4 @@
-require 'colorize'
-require_relative 'core/standart.rb'
+require_relative 'core/pr.rb'
 
 std = STANDART.new
 use = USING.new
