@@ -20,8 +20,8 @@ There are two ways to download Raccoon. First, you can download it from the [off
 To install Raccoon using Git, follow these steps:
 
 ```shell
-git clone https://github.com/RCsource/Raccoon
-bundle install
+$ git clone https://github.com/RCsource/Raccoon
+$ bundle install
 ```
 
 ## Documentation
