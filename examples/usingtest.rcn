@@ -1,6 +1,6 @@
 use.ruby 'ruby2d'
 
-set title: "Hello Triangle"
+set title: "Hello Triangle";
 
 Triangle.new(
   x1: 320, y1:  50,
@@ -9,4 +9,4 @@ Triangle.new(
   color: ['blue', 'green', 'purple']
 )
 
-show
+show;
