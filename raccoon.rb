@@ -1,13 +1,16 @@
-require_relative 'core/pr.rb'
+require_relative 'core/pr.rb' # require preprocessor
 
-std = STANDART.new
-use = USING.new
+std = STANDART.new # class STANDART = std
+use = USING.new # class USINF = use
 
-@tcode = ""
-path = ARGV[0]
+@tcode = "" # add new var
+path = ARGV[0] # add new var
 
 
 begin
+
+    #Erorr detection
+
     ntcode = File.read(path)
     eval(ntcode)
     erorrcode = 0
@@ -62,6 +65,9 @@ rescue ImportError
 rescue MemoryErorr
     erorrcode = 26
 ensure
+
+      # output erorrcode
+
       if erorrcode == 0
         puts "   -code complate!. Code of completed: #{erorrcode}".green
       elsif erorrcode == 1 || erorrcode == 2
