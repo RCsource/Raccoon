@@ -1,6 +1,0 @@
-use.ruby 'ruby2d'
-
-set title: "Hello, World!"
-Text.new('Hello, World! ')
-
-show
