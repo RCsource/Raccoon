@@ -3,7 +3,7 @@ begin
     attr_accessor :data # var for class
 
     def bring(data) # new function
-      @tcode =+ "\nputs #{data}'" # write in public var => "\nputs #{data}'"
+      @tcode =+ "\nputs '#{data}'" # write in public var => "\nputs #{data}'"
       eval(@tcode) # execute code from public var @tcode
     end # end function
 
@@ -11,12 +11,10 @@ begin
       @tcode =+ "\nprint(data)
       a = STDIN.gets
       return a"
-
       # write in public var => "
       # \n print(data)
       # a = STDIN.gets
       # return a"
-
       eval(@tcode) # execute code from public var @tcode
     end # end function
     
