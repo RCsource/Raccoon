@@ -1,21 +1,27 @@
-std.bring ("Hello, this is std.bring")
+std.bring ("Hello, this is std.bring"); # => true
+
+# std.bring ("I'm.."); => false
 
 repeat(6) {
-    std.bring ("Hello, i am repeat")
+    std.bring ("Hello, i am repeat");
 }
 
 doubles(3) {
-    std.bring ("Hello, i am doubles")
+    std.bring ("Hello, i am doubles");
 }
 
-name = std.input("your name: ")
-std.bring (name)
+let name = std.input("your name: ");
+std.bring (name);
 
 
-std.bring ("msg number 1")
-std.wait (10)
-std.bring ("msg number 2")
+std.bring ("msg number 1");
+wait (10);
+std.bring ("msg number 2");
 
-std.bring ("msg number 1")
-std.wait (60)
-std.bring ("msg number 2")
+std.bring ("msg number 1");
+wait (60);
+std.bring ("msg number 2");
+
+let myvar = ("Hello, i am var");
+
+std.bring (myvar);
