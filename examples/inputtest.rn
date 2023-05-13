@@ -1,3 +1,0 @@
-name = std.input("your name:")
-
-std.bring ("Hello," + name)
