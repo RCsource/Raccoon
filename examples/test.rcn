@@ -25,3 +25,7 @@ std.bring ("msg number 2");
 let myvar = ("Hello, i am var");
 
 std.bring (myvar);
+
+while myvar != 0
+    std.bring("Hello world!");
+fend
