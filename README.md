@@ -7,11 +7,11 @@
 
 Raccoon boasts the following features:
 
-- Simple syntax
-- Object-oriented features, such as classes and methods
-- A small but active community
-- No need to declare data types, just use "let"
-- Code is executed using translation
+- Simple syntax.
+- Object-oriented features, such as classes and methods.
+- A small but active community.
+- No need to declare data types, just use "let".
+- Code is executed using translation.
 
 ## Installation
 
