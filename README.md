@@ -1,7 +1,7 @@
 
 ## What is Raccoon?
 
-> Raccoon is an object-oriented programming language designed to be a programmer's best friend! It is also translatable, making it accessible to a wider audience.
+> Raccoon is an object-oriented programming language designed to be a programmer's best friend! It is also translatable, making it accessible to a wider audience! 
 
 ## Features of Raccoon
 
