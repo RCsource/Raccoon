@@ -1,4 +1,9 @@
-
+<div align="center" style="display:grid;place-items:center;">
+<p>
+    <a target="_blank"><img width="400" src="img/raccoonbanner.png" alt="Raccoon logo"></a>
+</p>
+</div>
+  
 ## What is Raccoon?
 
 > Raccoon is an object-oriented programming language designed to be a programmer's best friend! It is also translatable, making it accessible to a wider audience! 
