@@ -26,6 +26,26 @@ let myvar = ("Hello, i am var");
 
 std.bring (myvar);
 
-while myvar != 0
-    std.bring("Hello world!");
-fend
+test1 = function {
+    std.bring ("Hello, i am function");
+}
+
+test1;
+
+let newvar = 1;
+
+cond (newvar == 1) {
+    std.bring ("Hello, i am cond!");
+}
+
+yet (newvar != 1) {
+    std.bring ("Hello, i am yet!");
+}
+
+std.bring ("this is true boolean");
+std.bring (true);
+std.bring ("this is false boolean");
+std.bring (false);
+std.bring ("this is null boolean");
+
+std.bring ("\nTest end");
