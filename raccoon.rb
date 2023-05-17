@@ -5,7 +5,7 @@ use = USING.new # class USINF = use
 
 @tcode = "" # add new var
 path = ARGV[0] # add new var
-
+null = "null"
 
 begin
 
@@ -69,52 +69,52 @@ ensure
       # output erorrcode
 
       if erorrcode == 0
-        puts "   -code complate!. Code of completed: #{erorrcode}".green
+        puts "   -code complate!. Code of complate: #{erorrcode}".green
       elsif erorrcode == 1 || erorrcode == 2
-        puts "   -file not found. Code of completed: #{erorrcode}".red
+        puts "   -file not found. Code of complate: #{erorrcode}".red
       elsif erorrcode == 5
-        puts "   -Zero Division Error. Code of completed: #{erorrcode}".red
+        puts "   -Zero Division Error. Code of complate: #{erorrcode}".red
       elsif erorrcode == 6
-        puts "   -No Method Error. Code of completed: #{erorrcode}".red
+        puts "   -No Method Error. Code of complate: #{erorrcode}".red
       elsif erorrcode == 7
-        puts "   -Name erorr. Code of completed: #{erorrcode}".red
+        puts "   -Name erorr. Code of complate: #{erorrcode}".red
       elsif erorrcode == 8
-        puts "   -Load Error. Code of completed: #{erorrcode}".red
+        puts "   -Load Error. Code of ccomplate: #{erorrcode}".red
       elsif erorrcode == 9
-        puts "   -Syntax erorr. Code of completed: #{erorrcode}".red
+        puts "   -Syntax erorr. Code of complate: #{erorrcode}".red
       elsif erorrcode == 10
-        puts "   -ArgumentErorr. Code of completed: #{erorrcode}".red
+        puts "   -ArgumentErorr. Code of complate: #{erorrcode}".red
       elsif erorrcode == 11
-        puts "   -IO Error. Code of completed: #{erorrcode}".red
+        puts "   -IO Error. Code of complate: #{erorrcode}".red
       elsif erorrcode == 12
-        puts "   -System exit. Code of completed: #{erorrcode}".red
+        puts "   -System exit. Code of : #{erorrcode}".red
       elsif erorrcode == 13
-        puts "   -Standard Error. Code of completed: #{erorrcode}".red
+        puts "   -Standard Error. Code of complate: #{erorrcode}".red
       elsif erorrcode == 14
-        puts "   -Index Error. Code of completed: #{erorrcode}".red
+        puts "   -Index Error. Code of complate: #{erorrcode}".red
       elsif erorrcode == 15 
-        puts "   -Key Erorr. Code of completed: #{erorrcode}".red
+        puts "   -Key Erorr. Code of complate: #{erorrcode}".red
       elsif erorrcode == 16
-        puts "   -Not Implemented Error. Code of completed: #{erorrcode}".red
+        puts "   -Not Implemented Error. Code of complate: #{erorrcode}".red
       elsif erorrcode == 17
-        puts "   -Float Domain Error. Code of completed: #{erorrcode}".red
+        puts "   -Float Domain Error. Code of complate: #{erorrcode}".red
       elsif erorrcode == 18
-        puts "   -System Call Error. Code of completed: #{erorrcode}".red
+        puts "   -System Call Error. Code of complate: #{erorrcode}".red
       elsif erorrcode == 19
-        puts "   -Encoding Error. Code of completed: #{erorrcode}".red
+        puts "   -Encoding Error. Code of complate: #{erorrcode}".red
       elsif erorrcode == 20
-        puts "   -Thread Error. Code of completed: #{erorrcode}".red
+        puts "   -Thread Error. Code of complate: #{erorrcode}".red
       elsif erorrcode == 21
-        puts "   -Frozen Error Code of completed: #{erorrcode}".red
+        puts "   -Frozen Error Code of complate: #{erorrcode}".red
       elsif erorrcode == 22
-        puts "   -EOF Error. Code of completed: #{erorrcode}".red
+        puts "   -EOF Error. Code of complate: #{erorrcode}".red
       elsif erorrcode == 23
-        puts "   -Value Erorr. Code of completed: #{erorrcode}".red
+        puts "   -Value Erorr. Code of complate: #{erorrcode}".red
       elsif erorrcode == 24
-        puts "   -Assertion Error. Code of completed: #{erorrcode}".red
+        puts "   -Assertion Error. Code of complate: #{erorrcode}".red
       elsif erorrcode == 25
-        puts "   -Import Error. Code of completed: #{erorrcode}".red
+        puts "   -Import Error. Code of complate: #{erorrcode}".red
       elsif erorrcode == 26
-        puts "   -Memory Erorr. Code of completed: #{erorrcode}".red
+        puts "   -Memory Erorr. Code of complate: #{erorrcode}".red
     end
 end  
