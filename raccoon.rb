@@ -1,4 +1,4 @@
-require_relative 'scr/pr.rb' # require preprocessor
+require_relative 'src/pr.rb' # require preprocessor
 
 
 std = STANDART.new # class STANDART = std
