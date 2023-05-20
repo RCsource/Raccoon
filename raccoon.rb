@@ -1,5 +1,6 @@
 require_relative 'core/pr.rb' # require preprocessor
 
+
 std = STANDART.new # class STANDART = std
 use = USING.new # class USINF = use
 
@@ -7,10 +8,10 @@ use = USING.new # class USINF = use
 path = ARGV[0] # add new var
 null = "null"
 
+
 begin
 
     #Erorr detection
-
     ntcode = File.read(path)
     eval(ntcode)
     erorrcode = 0
