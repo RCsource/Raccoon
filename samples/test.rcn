@@ -1,0 +1,52 @@
+bring ("Hello, this is std.bring"); # => true
+
+# bring ("I'm.."); => false
+
+repeat(6) {
+    bring ("Hello, i am repeat");
+}
+
+doubles(3) {
+    bring ("Hello, i am doubles");
+}
+
+let name = input("your name: ");
+bring (name);
+
+
+bring ("msg number 1");
+wait (10);
+bring ("msg number 2");
+
+bring ("msg number 1");
+wait (60);
+bring ("msg number 2");
+
+let myvar = ("Hello, i am var");
+
+bring (myvar);
+
+test1 = function {
+    bring ("Hello, i am function");
+}
+
+test1;
+
+let newvar = 1;
+
+cond (newvar == 1) {
+    bring ("Hello, i am cond!");
+}
+
+yet (newvar != 1) {
+    bring ("Hello, i am yet!");
+}
+
+bring ("this is true boolean");
+bring (true);
+bring ("this is false boolean");
+bring (false);
+bring ("this is null boolean");
+bring (null);
+
+bring ("\nTest end");

@@ -1,0 +1,6 @@
+bring ("Hello, world!");
+name = input("bebra:")
+
+yet (true) {
+    bring ("Hello, i am cond!");
+}
