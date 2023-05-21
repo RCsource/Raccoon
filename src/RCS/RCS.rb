@@ -5,5 +5,5 @@ begin
     require_relative 'repeat.rb'
     require_relative 'doubles.rb'
 rescue => exception
-    puts "    -error in the RSL library.\n       #{e.message}".red
+    puts "    -error in the RSL module.\n       #{e.message}".red
 end
