@@ -49,4 +49,12 @@ bring (false);
 bring ("this is null boolean");
 bring (null);
 
+
+let arr = [
+    "Hello!","Hello2!"
+]
+bring (randarr(arr))
+
+bring (randint(1,10))
+
 bring ("\nTest end");
