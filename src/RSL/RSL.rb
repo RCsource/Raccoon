@@ -6,7 +6,7 @@ begin
       require_relative 'let.rb'
 
 rescue Exception => e
-    puts "    -error in the RSL library.\n       #{e.message}".red
+    puts "    -error in the RSL module.\n       #{e.message}".red
   
     # if in the std library find erorr write erorr msg
   
