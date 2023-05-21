@@ -14,5 +14,5 @@ rescue Exception => e
     # if in the using class find
     # erorr then output errorr msg
 
-    puts "    -error in the RUL.\n       #{e.message}".red
+    puts "    -error in the RUL module.\n       #{e.message}".red
 end # end function
