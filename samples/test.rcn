@@ -26,7 +26,7 @@ let myvar = ("Hello, i am var");
 
 bring (myvar);
 
-test1 = function {
+function(:test1) {
     bring ("Hello, i am function");
 }
 
