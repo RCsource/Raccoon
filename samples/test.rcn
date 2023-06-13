@@ -1,33 +1,33 @@
-bring ("Hello, this is std.bring"); # => true
+println("Hello, this is std.bring"); # => true
 
-# bring ("I'm.."); => false
+# println("I'm.."); => false
 
 repeat(6) {
-    bring ("Hello, i am repeat");
+    println("Hello, i am repeat");
 }
 
 doubles(3) {
-    bring ("Hello, i am doubles");
+    println("Hello, i am doubles");
 }
 
 let name = input("your name: ");
-bring (name);
+println(name);
 
 
-bring ("msg number 1");
+println("msg number 1");
 wait (10);
-bring ("msg number 2");
+println("msg number 2");
 
-bring ("msg number 1");
+println("msg number 1");
 wait (60);
-bring ("msg number 2");
+println("msg number 2");
 
 let myvar = ("Hello, i am var");
 
-bring (myvar);
+println(myvar);
 
 function(:test1) {
-    bring ("Hello, i am function");
+    println("Hello, i am function");
 }
 
 test1;
@@ -35,26 +35,26 @@ test1;
 let newvar = 1;
 
 cond (newvar == 1) {
-    bring ("Hello, i am cond!");
+    println("Hello, i am cond!");
 }
 
 yet (newvar != 1) {
-    bring ("Hello, i am yet!");
+    println("Hello, i am yet!");
 }
 
-bring ("this is true boolean");
-bring (true);
-bring ("this is false boolean");
-bring (false);
-bring ("this is null boolean");
-bring (null);
+println("this is true boolean");
+println(true);
+println("this is false boolean");
+println(false);
+println("this is null boolean");
+println(null);
 
 
 let arr = [
     "Hello!","Hello2!"
 ]
-bring (randarr(arr))
+println(randarr(arr))
 
-bring (randint(1,10))
+println(randint(1,10))
 
-bring ("\nTest end");
+println("\nTest end");
