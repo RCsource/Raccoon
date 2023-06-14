@@ -70,52 +70,52 @@ ensure
       # output erorrcode
 
       if erorrcode == 0
-        puts "   -code complate!. Code of complate: #{erorrcode}".green
+        puts "   -completion! Execution code: #{erorrcode}".green
       elsif erorrcode == 1 || erorrcode == 2
-        puts "   -file not found. Code of complate: #{erorrcode}".red
+        puts "   -file not found. Execution code: #{erorrcode}".red
       elsif erorrcode == 5
-        puts "   -Zero Division Error. Code of complate: #{erorrcode}".red
+        puts "   -Zero Division Error. Execution code: #{erorrcode}".red
       elsif erorrcode == 6
-        puts "   -No Method Error. Code of complate: #{erorrcode}".red
+        puts "   -No Method Error. Execution code: #{erorrcode}".red
       elsif erorrcode == 7
-        puts "   -Name erorr. Code of complate: #{erorrcode}".red
+        puts "   -Name erorr. Execution code: #{erorrcode}".red
       elsif erorrcode == 8
-        puts "   -Load Error. Code of ccomplate: #{erorrcode}".red
+        puts "   -Load Error. Execution code: #{erorrcode}".red
       elsif erorrcode == 9
-        puts "   -Syntax erorr. Code of complate: #{erorrcode}".red
+        puts "   -Syntax erorr. Execution code: #{erorrcode}".red
       elsif erorrcode == 10
-        puts "   -ArgumentErorr. Code of complate: #{erorrcode}".red
+        puts "   -ArgumentErorr. Execution code: #{erorrcode}".red
       elsif erorrcode == 11
-        puts "   -IO Error. Code of complate: #{erorrcode}".red
+        puts "   -IO Error. Execution code: #{erorrcode}".red
       elsif erorrcode == 12
-        puts "   -System exit. Code of : #{erorrcode}".red
+        puts "   -System exit. Execution code: #{erorrcode}".red
       elsif erorrcode == 13
-        puts "   -Standard Error. Code of complate: #{erorrcode}".red
+        puts "   -Standard Error. Execution code: #{erorrcode}".red
       elsif erorrcode == 14
-        puts "   -Index Error. Code of complate: #{erorrcode}".red
+        puts "   -Index Error. Execution code: #{erorrcode}".red
       elsif erorrcode == 15 
-        puts "   -Key Erorr. Code of complate: #{erorrcode}".red
+        puts "   -Key Erorr. Execution code: #{erorrcode}".red
       elsif erorrcode == 16
-        puts "   -Not Implemented Error. Code of complate: #{erorrcode}".red
+        puts "   -Not Implemented Error. Execution code: #{erorrcode}".red
       elsif erorrcode == 17
-        puts "   -Float Domain Error. Code of complate: #{erorrcode}".red
+        puts "   -Float Domain Error. Execution code: #{erorrcode}".red
       elsif erorrcode == 18
-        puts "   -System Call Error. Code of complate: #{erorrcode}".red
+        puts "   -System Call Error. Execution code: #{erorrcode}".red
       elsif erorrcode == 19
-        puts "   -Encoding Error. Code of complate: #{erorrcode}".red
+        puts "   -Encoding Error. Execution code: #{erorrcode}".red
       elsif erorrcode == 20
-        puts "   -Thread Error. Code of complate: #{erorrcode}".red
+        puts "   -Thread Error. Execution code: #{erorrcode}".red
       elsif erorrcode == 21
-        puts "   -Frozen Error Code of complate: #{erorrcode}".red
+        puts "   -Frozen Error. Execution code: #{erorrcode}".red
       elsif erorrcode == 22
-        puts "   -EOF Error. Code of complate: #{erorrcode}".red
+        puts "   -EOF Error. Execution code: #{erorrcode}".red
       elsif erorrcode == 23
-        puts "   -Value Erorr. Code of complate: #{erorrcode}".red
+        puts "   -Value Erorr. Execution code: #{erorrcode}".red
       elsif erorrcode == 24
         puts "   -Assertion Error. Code of complate: #{erorrcode}".red
       elsif erorrcode == 25
-        puts "   -Import Error. Code of complate: #{erorrcode}".red
+        puts "   -Import Error. Execution code: #{erorrcode}".red
       elsif erorrcode == 26
-        puts "   -Memory Erorr. Code of complate: #{erorrcode}".red
+        puts "   -Memory Erorr. Execution code: #{erorrcode}".red
     end
 end  
