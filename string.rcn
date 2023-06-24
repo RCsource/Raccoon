@@ -1,6 +1,0 @@
-# work with string in Raccoon
-
-let StringVar = "text";
-
-println ("UPCASE-" + StringVar).upcase ;
-println ("downcase-" + StringVar).downcase ;
