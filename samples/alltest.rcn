@@ -1,0 +1,60 @@
+println("Hello, this is std.bring"); # => true
+
+# println("I'm.."); => false
+
+repeat(6) {
+    println("Hello, i am repeat");
+}
+
+doubles(3) {
+    println("Hello, i am doubles");
+}
+
+let name = input("your name: ");
+println(name);
+
+
+println("msg number 1");
+wait (10);
+println("msg number 2");
+
+println("msg number 1");
+wait (60);
+println("msg number 2");
+
+let myvar = ("Hello, i am var");
+
+println(myvar);
+
+function(:test1) {
+    println("Hello, i am function");
+}
+
+test1;
+
+let newvar = 1;
+
+cond (newvar == 1) {
+    println("Hello, i am cond!");
+}
+
+yet (newvar != 1) {
+    println("Hello, i am yet!");
+}
+
+println("this is true boolean");
+println(true);
+println("this is false boolean");
+println(false);
+println("this is null boolean");
+println(null);
+
+
+let arr = [
+    "Hello!","Hello2!"
+]
+println(randarr(arr))
+
+println(randint(1,10))
+
+println("\nTest end");
